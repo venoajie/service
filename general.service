@@ -13,18 +13,3 @@ RestartSec=5
 
 [Install]
 WantedBy=multi-user.target
-
-~         
-
-
-
-#ubuntu
-ExecStart=/home/ubuntu/App/.venv/bin/python3 /home/ubuntu/App/src/general_tasks
-WorkingDirectory=/home/ubuntu/App/src
-
-sudo vim /etc/systemd/system/general_tasks.service
-sudo chmod +x /etc/systemd/system/general_tasks.service
-sudo systemctl daemon-reload
-sudo systemctl enable general_tasks.service
-sudo systemctl start general_tasks.service
- 
