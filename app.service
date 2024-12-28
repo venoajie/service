@@ -9,7 +9,7 @@ ExecStart=/home/ubuntu/App/.venv/bin/python3 /home/ubuntu/App/src/app
 WorkingDirectory=/home/ubuntu/App/src
 User=ubuntu
 StandardOutput=null
-RestartSec=1
+RestartSec=3
 
 [Install]
 WantedBy=multi-user.target
