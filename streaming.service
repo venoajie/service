@@ -8,7 +8,7 @@ ExecStart=/home/ubuntu/App/.venv/bin/python3 /home/ubuntu/App/src/streaming
 WorkingDirectory=/home/ubuntu/App/src
 User=ubuntu
 StandardOutput=null
-RestartSec=1
+RestartSec=5
 
 
 [Install]
